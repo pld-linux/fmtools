@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://www.exploits.org/v4l/fmtools/%{name}-%{version}.tar.gz
+# Source0-md5:	6093f8a69ab51a056e3e1ae9ee6d6b0f
 URL:		http://www.exploits.org/v4l/fmtools/
 BuildRequires:	autoconf
 BuildRequires:	automake
