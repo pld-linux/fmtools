@@ -11,7 +11,6 @@ URL:		http://www.exploits.org/v4l/fmtools/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	avifile-devel
-BuildRequires:	libstdc++-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
