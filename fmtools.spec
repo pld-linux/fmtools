@@ -1,4 +1,5 @@
 Summary:	Programs for Video for Linux radio cards
+Summary(pl):	Programy do kart radiowych zgodnych z Video for Linux
 Name:		fmtools
 Version:	0.99.1
 Release:	1
@@ -22,8 +23,20 @@ scripts and other programs without disrupting the display.
 
 fmscan will by default scan from 87.9 to 107.9 MHz in 0.2 MHz
 increments looking for stations that have an average signal strength
-of 50% or greater. VCR is a program which enables you to record a
-program using a video
+of 50% or greater.
+
+%description -l pl
+fmtools sk³ada siê z dwóch narzêdzi - tunera o nazwie "fm" oraz
+skanera pasma o nazwie "fmscan".
+
+fm obs³uguje podstawowe funkcje kart radiowych v4l: w³±czanie,
+wy³±czanie, strojenie i zmianê g³o¶no¶ci. Jest tak¿e tryb cichy, który
+pozwala na uruchamianie ze skryptów IRC i innych programów bez
+zak³ócania obrazu.
+
+fmscan domy¶lnie przeszukuje zakres czêstotliwo¶ci 87.9 do 107.9 MHz w
+krokach co 0.2 MHz w poszukiwaniu stacji o ¶redniej mocy sygna³u 50%
+lub wiêcej.
 
 %prep
 %setup -q
