@@ -1,5 +1,5 @@
 Summary:	Programs for Video for Linux radio cards
-Summary(pl):	Programy do kart radiowych zgodnych z Video for Linux
+Summary(pl.UTF-8):   Programy do kart radiowych zgodnych z Video for Linux
 Name:		fmtools
 Version:	0.99.1
 Release:	1
@@ -25,18 +25,18 @@ fmscan will by default scan from 87.9 to 107.9 MHz in 0.2 MHz
 increments looking for stations that have an average signal strength
 of 50% or greater.
 
-%description -l pl
-fmtools sk³ada siê z dwóch narzêdzi - tunera o nazwie "fm" oraz
+%description -l pl.UTF-8
+fmtools skÅ‚ada siÄ™ z dwÃ³ch narzÄ™dzi - tunera o nazwie "fm" oraz
 skanera pasma o nazwie "fmscan".
 
-fm obs³uguje podstawowe funkcje kart radiowych v4l: w³±czanie,
-wy³±czanie, strojenie i zmianê g³o¶no¶ci. Jest tak¿e tryb cichy, który
-pozwala na uruchamianie ze skryptów IRC i innych programów bez
-zak³ócania obrazu.
+fm obsÅ‚uguje podstawowe funkcje kart radiowych v4l: wÅ‚Ä…czanie,
+wyÅ‚Ä…czanie, strojenie i zmianÄ™ gÅ‚oÅ›noÅ›ci. Jest takÅ¼e tryb cichy, ktÃ³ry
+pozwala na uruchamianie ze skryptÃ³w IRC i innych programÃ³w bez
+zakÅ‚Ã³cania obrazu.
 
-fmscan domy¶lnie przeszukuje zakres czêstotliwo¶ci 87.9 do 107.9 MHz w
-krokach co 0.2 MHz w poszukiwaniu stacji o ¶redniej mocy sygna³u 50%
-lub wiêcej.
+fmscan domyÅ›lnie przeszukuje zakres czÄ™stotliwoÅ›ci 87.9 do 107.9 MHz w
+krokach co 0.2 MHz w poszukiwaniu stacji o Å›redniej mocy sygnaÅ‚u 50%
+lub wiÄ™cej.
 
 %prep
 %setup -q
