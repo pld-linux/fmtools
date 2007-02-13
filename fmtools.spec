@@ -1,5 +1,5 @@
 Summary:	Programs for Video for Linux radio cards
-Summary(pl.UTF-8):   Programy do kart radiowych zgodnych z Video for Linux
+Summary(pl.UTF-8):	Programy do kart radiowych zgodnych z Video for Linux
 Name:		fmtools
 Version:	0.99.1
 Release:	1
